@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <title>YouTube Clicker</title>
+    <meta name="og:title" content="YouTube Clicker">
+    <meta name="og:description" content="YouTube Clicker is a website that allows you to click youtube buttons">
+  </head>
+  <body>
+    <div id="loading-container" hidden>
+      <p>Loading...</p>
+      <img src="/youtube-loading.gif" height="200">
+    </div>
+    <div id="clicker-container">
+      <p id="clicks">0 Clicks!</p>
+      <img src="/favicon.ico" id="youtube">
+    </div>
+    <div id="shop">
+      <button type="button" onclick="buy(`silver`)" title="You need a hundred cookies to buy silver!">Buy Silver Button</button><br>
+      <button type="button" onclick="buy(`gold`)" title="You need a thousand cookies to buy gold!">Buy Gold Button</button><br>
+      <button type="button" onclick="buy(`diamond`)" title="You need a million cookies to buy diamond!">Buy Diamond Button</button><br>
+      <button type="button" onclick="buy(`ruby`)" title="You need a billion cookies to buy diamond!">Buy Ruby Button</button>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
